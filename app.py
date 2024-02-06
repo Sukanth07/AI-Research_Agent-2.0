@@ -80,9 +80,9 @@ def add_reference_links(links):
 # Module 5: Streamlit UI
 
 def streamlit_app():
-    st.set_page_config(page_title="AI research agent", page_icon=":robot:")
+    st.set_page_config(page_title="AI research agent", page_icon=":robot_face:")
 
-    st.header("AI research agent :bird:")
+    st.header("AI research agent :robot_face:")
     query = st.text_input("Research goal")
     
     if query:
