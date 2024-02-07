@@ -83,7 +83,7 @@ def streamlit_app():
     st.set_page_config(page_title="AI research agent", page_icon=":robot_face:")
 
     st.header("AI research agent :robot_face:")
-    query = st.text_input("Research goal", placeholder="Eg: Write an article about ICC World Cup 2023")
+    query = st.text_input("Research goal", "Eg: Write an article about ICC World Cup 2023")
     
     if query:
         st.write("Doing research for ", query)
