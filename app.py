@@ -85,6 +85,7 @@ def streamlit_app():
     st.header("AI research agent :robot_face:")
     query = st.text_input("Research goal (e.g. 'Write an article about ICC World Cup 2023')")
     
+    
     if query:
         st.write("Doing research for ", query)
 
